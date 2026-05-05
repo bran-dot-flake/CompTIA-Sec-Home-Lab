@@ -78,6 +78,8 @@ This lab was built in a virtual environment using VirtualBox to simulate a small
 
 - [Key Takeaways](#key-takeaways)
 
+- [Acknowledgements](#acknowledgements)
+
 ---
 
 ## Lab Exercises
@@ -337,8 +339,5 @@ Overall, this experience strengthened my understanding of core Security+ concept
 
 ---
 
-## Future Improvements
-- Expand SIEM logging and monitoring (e.g., Splunk or ELK stack)  
-- Add Active Directory domain environment  
-- Simulate real attack/defense scenarios (red vs blue team exercises)  
-- Implement automated vulnerability scanning pipeline  
+## Acknowledgements
+- [Andrew Ramdayal, TIA Training: CompTIA Security+ SY0-701 course](https://www.udemy.com/share/10aebA3@dUBTAjCnBCejkPZSQi7kNBkx_G1MscfBq5WHy47wSwLocjbT4Ydzvb1l8oGpkIHafw==/)
