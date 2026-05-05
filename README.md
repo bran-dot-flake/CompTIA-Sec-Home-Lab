@@ -132,7 +132,16 @@ Used IP scanning tools to identify active devices and map the local network.
 
 ### 4. Vulnerability Scanning
 Performed vulnerability assessments using Nessus to identify system weaknesses and misconfigurations.
-![Network Scan](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_812902af.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_812902af.png">
+  <br/>
+  <em>Figure 6: Scanning Device Vulnerabilities On Network with Nessus</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/637ac987f2c741bb68d2861e471a69739e5aad00/images/nessusscan.png">
+  <br/>
+  <em>Figure 7: Analysis of Network Vulnerabilities via Nessus</em>
+</p>
 
 > Vulnerability scanning is a core component of risk management, enabling organizations to proactively identify and remediate known security flaws before they can be exploited.
 
@@ -143,10 +152,22 @@ Demonstrated password strength analysis using Ophcrack and brute-force/dictionar
 
 - Weak passwords were easily cracked  
 - Complex passwords (e.g., `P@ssw0rd!`) significantly increased resistance  
-- Dictionary-based attacks proved more effective than brute force in many cases  
-![NTLM Password Hash](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_b56b9bec.png)
-![Ophcrack Brute Force](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_58664aaf.png)
-![Password Lookup Table](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_f01a4529.png)
+- Dictionary-based attacks proved more effective than brute force in many cases
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_b56b9bec.png">
+  <br/>
+  <em>Figure 8: Creating a Windows NTLM Password Hash</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_58664aaf.png">
+  <br/>
+  <em>Figure 9: Brute Force Password Cracking with OphCrack</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_f01a4529.png">
+  <br/>
+  <em>Figure 10: Password Cracking using a Lookup Table</em>
+</p>
 
 > This highlights the importance of strong authentication practices and demonstrates how weak credentials can be exploited. It reinforces Security+ topics like password policies, hashing, and attack methods.
 
@@ -156,9 +177,16 @@ Demonstrated password strength analysis using Ophcrack and brute-force/dictionar
 Used OWASP Juice Shop (intentionally vulnerable application) to explore common web vulnerabilities such as:
 - SQL Injection  
 - Cross-Site Scripting (XSS)
-![Website Scanner - Inital](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_1063382b.png)
-![Website Scanner - Findings](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_56d83f2d.png)
-![Website Scanner - Info](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_79da1919.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_1063382b.png">
+  <br/>
+  <em>Figure 11: Using PenTestTools to Scan A Website For Vulnerabilities</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_56d83f2d.png">
+  <br/>
+  <em>Figure 12: Report Showing Specific Website Vulnerabilities</em>
+</p>
 
 > This demonstrates awareness of OWASP Top 10 risks, such as injection and XSS, emphasizing the importance of secure coding practices and input validation in web applications.
 
@@ -166,9 +194,21 @@ Used OWASP Juice Shop (intentionally vulnerable application) to explore common w
 
 ### 7. Network Traffic Analysis
 Configured an insecure FTP server and captured login credentials using Wireshark to demonstrate plaintext transmission risks.
-![FTP Server](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_d0ae9b20.png)
-![FTP Server - Initialization](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_8fa07424.png)
-![WireShark Sniffing](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_2a40852d.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_d0ae9b20.png">
+  <br/>
+  <em>Figure 13: Administering User & Password to FileZilla Server</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_8fa07424.png">
+  <br/>
+  <em>Figure 14: Using Insecure FTP Server Protocol to Initalize Server</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_2a40852d.png">
+  <br/>
+  <em>Figure 15: Sniffing Sensitive Network Traffic Data using Wireshark</em>
+</p>
 
 > This illustrates the danger of unencrypted protocols and reinforces the need for secure alternatives (e.g., SFTP, HTTPS) to protect data in transit.
 
@@ -180,7 +220,11 @@ Established SSH connections from Windows 10 using PuTTY to securely manage remot
 sudo apt install openssh-server
 sudo service ssh start
 ```
-![PuTTY](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_86ddb2bb.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_86ddb2bb.png">
+  <br/>
+  <em>Figure 16: Utilizing PuTTY to Establish Secure SSH Connection</em>
+</p>
 
 > SSH provides encrypted remote administration, ensuring confidentiality and integrity of management traffic compared to insecure protocols like Telnet.
 
@@ -188,7 +232,16 @@ sudo service ssh start
 
 ### 9. Password Policy Enforcement
 Configured and enforced strong password policies to improve authentication security.
-![Complex Password - Enable](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_a7f48d11.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/637ac987f2c741bb68d2861e471a69739e5aad00/images/complexpassword.png">
+  <br/>
+  <em>Figure 17: Configuring Complex Password Policies</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_a7f48d11.png">
+  <br/>
+  <em>Figure 18: Insufficient Password Complexity Requirements</em>
+</p>
 
 > This aligns with identity and access management (IAM) principles, enforcing complexity and reducing the risk of credential-based attacks.
 
@@ -196,9 +249,21 @@ Configured and enforced strong password policies to improve authentication secur
 
 ### 10. Steganography
 Embedded hidden messages within files to demonstrate covert data transmission techniques.
-![Image Encode](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_cb20fdad.png)
-![Image Decode](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_1049d852.png)
-![Image - Comparison](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_eeb39e3a.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_cb20fdad.png">
+  <br/>
+  <em>Figure 19: Embedding a Hidden Message using Steganography</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_1049d852.png">
+  <br/>
+  <em>Figure 20: Decoding the Hidden Message</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_eeb39e3a.png">
+  <br/>
+  <em>Figure 21: Comparison of Original & Data-Embedded Images</em>
+</p>
 
 > Demonstrates data obfuscation techniques, which can be used for both legitimate privacy purposes and malicious data exfiltration, highlighting the need for monitoring and detection.
 
@@ -206,7 +271,11 @@ Embedded hidden messages within files to demonstrate covert data transmission te
 
 ### 11. Disk Encryption
 Enabled full disk encryption using built-in Windows encryption tools to protect data at rest.
-![Windows Bitlocker](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_ae5c6c32.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_ae5c6c32.png">
+  <br/>
+  <em>Figure 22: Using Windows Bitlocker to Encrypt a Drive</em>
+</p>
 
 > Protects data at rest, ensuring that sensitive information remains secure even if physical devices are lost or stolen.
 
@@ -214,8 +283,16 @@ Enabled full disk encryption using built-in Windows encryption tools to protect 
 
 ### 12. Role-Based Access Control (RBAC)
 Configured user roles and permissions within Windows to enforce least privilege access.
-![Group Creation](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_457525e3.png)
-![RBAC](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_5f0b4c28.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_457525e3.png">
+  <br/>
+  <em>Figure 23: Creating User Groups in Windows Computer Management</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_5f0b4c28.png">
+  <br/>
+  <em>Figure 24: Creating Access Controls Determined by Group</em>
+</p>
 
 > Implements the principle of least privilege, limiting access to only what is necessary and reducing the attack surface.
 
@@ -223,9 +300,21 @@ Configured user roles and permissions within Windows to enforce least privilege 
 
 ### 13. Firewall Configuration
 Configured Windows Firewall rules, including allowing FTP traffic for controlled services.
-![Windows Firewall](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_ba660da.png)
-![Firewall Outbound Rule](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_fb5553c9.png)
-![Rule - Verification](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_8cec16d4.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_ba660da.png">
+  <br/>
+  <em>Figure 25: Enabling Windows Defender Firewall</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_fb5553c9.png">
+  <br/>
+  <em>Figure 26: Creating an Outbound Firewall Rule (For FTP Server)</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_8cec16d4.png">
+  <br/>
+  <em>Figure 27: Outbound Firewall Rule Committed</em>
+</p>
 
 > Firewalls enforce network security boundaries by controlling inbound and outbound traffic based on predefined rules.
 
@@ -233,7 +322,11 @@ Configured Windows Firewall rules, including allowing FTP traffic for controlled
 
 ### 14. Patch Management
 Maintained system updates while acknowledging the need for controlled testing before deployment in production environments.
-![Windows Update](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_304c236b.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_304c236b.png">
+  <br/>
+  <em>Figure 28: Checking for System Updates & Keeping System Up-to-date</em>
+</p>
 
 > Patch management is critical for vulnerability mitigation, ensuring systems are protected against known exploits while minimizing operational risk.
 
@@ -241,8 +334,16 @@ Maintained system updates while acknowledging the need for controlled testing be
 
 ### 15. System Hardening (Group Policy)
 Applied Group Policy configurations to harden Windows systems and restrict insecure behaviors.
-![Group Policy](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_1c727064.png)
-![Group Policy - Denied](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_c0469226.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_1c727064.png">
+  <br/>
+  <em>Figure 29: Creating Group Policy Rule</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_c0469226.png">
+  <br/>
+  <em>Figure 30: Illustrating Effect of New Rule</em>
+</p>
 
 > System hardening reduces the attack surface by disabling unnecessary features and enforcing security configurations.
 
@@ -250,8 +351,16 @@ Applied Group Policy configurations to harden Windows systems and restrict insec
 
 ### 16. Wireless Security
 Configured secure wireless networking using WPA3, changed default credentials, and created a guest network for IoT and segmented device access.
-![Router WPA3](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_b05ccdef.png)
-![Guest Network](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_c2cabf1b.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_b05ccdef.png">
+  <br/>
+  <em>Figure 31: Enabling Router WPA3 WiFi Protocol</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_c2cabf1b.png">
+  <br/>
+  <em>Figure 31: Creating A Guest Network</em>
+</p>
 
 > Demonstrates secure network design, protecting wireless communications and isolating less-trusted devices to prevent lateral movement.
 
@@ -259,7 +368,11 @@ Configured secure wireless networking using WPA3, changed default credentials, a
 
 ### 17. File Encryption
 Applied file-level encryption to protect sensitive data within the operating system.
-![File Encryption](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_843e94d5.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5d3ffba17acda26162bded950596948b9f151f8e/images/Sec%2B%20Labs_html_843e94d5.png">
+  <br/>
+  <em>Figure 32: Encrypting Specific Files for Users</em>
+</p>
 
 > Provides granular data protection, ensuring sensitive files remain secure even within a system.
 
@@ -267,9 +380,21 @@ Applied file-level encryption to protect sensitive data within the operating sys
 
 ### 18. Backup & Router Security
 Performed router configuration backups, firmware updates, and restoration procedures to ensure recovery readiness.
-![Router Backup](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_fbdb749b.png)
-![Router Update](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_ac62b44.png)
-![Router Update - Apply](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_98519a75.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_fbdb749b.png">
+  <br/>
+  <em>Figure 33: Creating Router Configuration Backups & Restoring Previous Configurations</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_ac62b44.png">
+  <br/>
+  <em>Figure 34: Locating The Newest Firmware Update</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_98519a75.png">
+  <br/>
+  <em>Figure 35: Manually Applying Downloaded Firmware Update</em>
+</p>
 
 > Supports disaster recovery and business continuity, ensuring configurations can be restored and vulnerabilities in firmware are addressed.
 
@@ -277,7 +402,11 @@ Performed router configuration backups, firmware updates, and restoration proced
 
 ### 19. DMZ Configuration
 Configured a Demilitarized Zone (DMZ) to isolate public-facing services from internal network resources.
-![DMZ](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_8ccf410.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_8ccf410.png">
+  <br/>
+  <em>Figure 36: Configuring A Network DMZ</em>
+</p>
 
 > A DMZ adds a layered defense strategy, isolating public-facing services from internal networks to reduce risk.
 
@@ -285,8 +414,16 @@ Configured a Demilitarized Zone (DMZ) to isolate public-facing services from int
 
 ### 20. Anonymity & Threat Research
 Used the Tor network to explore anonymity concepts and privacy-focused browsing techniques.
-![Tor - Connect](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_f2dfe51c.png)
-![Tor - Connected](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_153f9170.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_f2dfe51c.png">
+  <br/>
+  <em>Figure 37: Downloading Tor Browser</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_153f9170.png">
+  <br/>
+  <em>Figure 38: Connecting to Tor Browser</em>
+</p>
 
 > Highlights anonymity and privacy concepts, as well as how such tools may be used in both legitimate and malicious contexts.
 
@@ -294,8 +431,16 @@ Used the Tor network to explore anonymity concepts and privacy-focused browsing 
 
 ### 21. Network Segmentation (VLANs)
 Implemented VLANs to separate network traffic and improve security boundaries.
-![VLAN - Add](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_fb5553c9.png)
-![VLAN - Added](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_3079537f.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/5fc4461ea93ea66001d1c4a5b26d5cbb106a2880/images/Sec%2B%20Labs_html_fb9068d2.png">
+  <br/>
+  <em>Figure 39: Adding VLANS to Segment Network</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_3079537f.png">
+  <br/>
+  <em>Figure 40: Configuring VLANS to Segment Network</em>
+</p>
 
 > Segmentation limits lateral movement and improves containment during a security incident.
 
@@ -303,7 +448,11 @@ Implemented VLANs to separate network traffic and improve security boundaries.
 
 ### 22. Intrusion Prevention Systems
 Explored IPS concepts and configuration to detect and prevent malicious network activity.
-![IPS - On](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_c91ce3c.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_c91ce3c.png">
+  <br/>
+  <em>Figure 41: Enabling IPS within Router</em>
+</p>
 
 > IPS solutions provide real-time threat detection and prevention, actively blocking malicious activity.
 
@@ -311,8 +460,16 @@ Explored IPS concepts and configuration to detect and prevent malicious network 
 
 ### 23. Web Filtering
 Configured web filtering controls to restrict access to malicious or non-productive websites.
-![Web Filtering - On](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_b4229ddf.png)
-![Web Filtering - Rule](https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_cd60a6bf.png)
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_b4229ddf.png">
+  <br/>
+  <em>Figure 42: Establishing Web Filtering for Router</em>
+</p>
+<p align="center">  
+  <img src="https://github.com/bran-dot-flake/CompTIA-Sec-Home-Lab/blob/ddd0b821353775217e7be22f8f8566397e094f67/images/Sec%2B%20Labs_html_cd60a6bf.png">
+  <br/>
+  <em>Figure 42: Creating Web Filtering Policy</em>
+</p>
 
 > Helps enforce acceptable use policies and protects users from malicious or high-risk websites.
 
